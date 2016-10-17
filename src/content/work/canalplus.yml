@@ -1,0 +1,73 @@
+path: /work/canalplus/
+id: canalplus
+title: Canal+ TV
+description: The VOD TV portal of +10,000 CANAL+ & CANALSAT programs
+client: Canal+ Groupe
+summary:
+  - >
+      From 2012, CANAL+ has innovated in the boxes universe by coding our box software in Javascript.
+  - >
+      The implementation of a recent webkit allows a greater of number of developers to create
+      faster HTML5 applications using CSS3.<br/>I was one of them.
+date: 2014
+blocks:
+  - type: image
+    isFull: true
+    content: context.jpg
+  - type: text
+    title: My role
+    content: >
+      For a month, CANAL+ & CANALSAT VOD offers more than 10,000 programs to see or see again
+      anytime. I was in charge of developing this service where the particularity was to manage
+      the remote control events with different modules like the mosaic of contents, the menu or the
+      search engine. I used Backbone framework and BEM logical to help me to structure my code.
+  - type: device
+    title: The VOD widget
+    diaporama: 2000
+    content:
+      - device: tv
+        media: widget/screen-0.jpg
+      - device: tv
+        media: widget/screen-1.jpg
+      - device: tv
+        media: widget/screen-2.jpg
+      - device: tv
+        media: widget/screen-3.jpg
+    aside: As you can see, the list of available programs appear over the live channel.
+  - type: device
+    title: The VOD portal
+    diaporama: 2000
+    content:
+      - device: tv
+        media: portal/screen-0.jpg
+      - device: tv
+        media: portal/screen-1.jpg
+      - device: tv
+        media: portal/screen-2.jpg
+      - device: tv
+        media: portal/screen-3.jpg
+      - device: tv
+        media: portal/screen-4.jpg
+      - device: tv
+        media: portal/screen-5.jpg
+    aside:
+      title: Canal+ team
+      content:
+        - Benoit Audouard - Manager
+        - Emmanuelle Portal - UX Designer
+        - Romain Derrien - Designer
+  - type: text
+    title: Campus
+    content: >
+      The Campus channel list educational programs classified by subjects and school classes.
+      To give more value to this contents, I developed the ability to read lessons and make quizzes.
+      This feature is on TV but also on the tablet/phone myCANAL app via a web view.
+  - type: video
+    content: <iframe width="560" height="315" src="https://www.youtube.com/embed/RFfCjEi8KoY" frameborder="0" allowfullscreen></iframe>
+    aside:
+      title: Canal+ team
+      content:
+        - Benoit Audouard - Manager
+        - Julia Maunier - Project Manager
+        - <a href="http://www.ccerbelle.com" target="_blank">Clémentine Cerbelle - Designer</a>
+        - Brice Audrain - Designer

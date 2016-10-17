@@ -1,0 +1,44 @@
+path: /work/orange/
+id: orange
+title: Orange
+description: The corporate website of Orange Business Services
+client: Octave & Octave
+date: Summer 2012
+link: http://www.orange-business.com
+summary:
+  - >
+      After 3 years working as first employee in the awesome <a href="http://www.octaveoctave.com"
+      target="_blank">Octave & Octave</a> web agency, I came back working with my mates
+      for this mission as freelance.
+  - >
+      Orange Business Services, is the entity of the Orange Group, which provides
+      telecommunications services and IT services to companies in France and around the world in 220
+      countries and territories.
+blocks:
+  - type: image
+    isFull: true
+    content: context.jpg
+  - type: text
+    title: My role
+    content:
+      - >
+          Creative team design of the corporate platform including a product catalog, a presentation
+          of solutions and industries and an expert platform.
+      - >
+          In order to help me in the build of over 20 templates, I used the Compass/Sass framework
+          to manage css modules and jQuery library for custom animations and sliders.
+  - type: device
+    content:
+    - device: browser
+      size: half
+      media: screen-0.jpg
+    - device: browser
+      size: half
+      media: screen-1.jpg
+    aside:
+      title: Octave & Octave team
+      content:
+        - <a href="http://dogmatheque.com" target="_blank">Frédéric Fornini</a> - Visual identity
+        - <a href="http://www.leoguenoun.com" target="_blank">Leo Guenoun</a> - Designer
+        - <a href="http://jeremymaurel.fr" target="_blank">Jérémy Maurel</a> - Designer
+        - <a href="http://victorcoulon.fr" target="_blank">Victor Coulon</a> - Front-end developer

@@ -1,0 +1,11 @@
+path: /
+seo:
+  title: Franck Maurin - Freelance front-end engineer
+  description: Franck Maurin is a freelance front-end developer based in Paris, France.
+  priority: "1.0"
+portfolio:
+  - canalplay
+  - mycanal
+  - canalplus
+  - orange
+  - societe-generale

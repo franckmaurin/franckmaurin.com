@@ -1,0 +1,46 @@
+path: /work/societe-generale/
+id: societe-generale
+title: Société Générale
+description: The musical sponsorship of Société Générale Group
+client: Uzik
+date: Winter 2012
+link: https://www.mecenatmusical.societegenerale.com
+summary: >
+  This project was my first opportunity to work with the most rock''n''roll
+  Parisian web agency: <a href="http://www.uzik.com" target="_blank">Uzik</a>. It
+  showed me an involved team who completed the project starting from taking photographs
+  until the final deployment.
+blocks:
+  - type: image
+    isFull: true
+    content: context.jpg
+  - type: text
+    title: My role
+    content:
+      - >
+          As we started to develop the product, we decided to focus our efforts
+          on the most important thing for a musical sponsorship website: music shouldn't
+          be cut between pages.
+      - >
+          This implies that all site requests is done asynchronously. With my colleague developer,
+          we needed to be agiles to define the best match between
+          my handcrafted front-end code and his Zend framework based back-end.
+      - >
+          Compatibility with IE 6-7 being required, I used jQuery library to develop custom liquid
+          slider and all the website animations.
+  - type: device
+    content:
+    - device: browser
+      media: screen-0.jpg
+    - device: browser
+      size: half
+      media: screen-1.jpg
+    - device: browser
+      size: half
+      media: screen-2.jpg
+    aside:
+      title: Uzik team
+      content:
+        - <a href="http://www.baillyjulien.com" target="_blank">Julien Bailly</a> - Art Director
+        - <a href="http://www.audedegrassat.com" target="_blank">Aude Degrassat</a> - Designer
+        - Maxime Maupeu - Back developer

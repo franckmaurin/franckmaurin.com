@@ -1,0 +1,44 @@
+.Detail {
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+  height: 6rem;
+  display: inline-block;
+}
+
+.Detail:hover {
+  color: #333;
+}
+
+.Detail:before {
+  content: "";
+  height: .4em;
+  width: 100%;
+  background: #fbf6be;
+  position: absolute;
+  bottom: .3em;
+  left: 0;
+  z-index: -1;
+  transition: opacity .2s ease-in-out;
+}
+
+.Intro--detail .Detail:before {
+  opacity: 0;
+}
+
+.Detail:after {
+  content: "?";
+  font-size: .5em;
+  position: relative;
+  top: -1em;
+  opacity: .5;
+}
+
+.Detail__content {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 5;
+  width: 500px;
+  font-size: .5em;
+}

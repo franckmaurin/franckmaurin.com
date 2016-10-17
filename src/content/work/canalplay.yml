@@ -1,0 +1,51 @@
+path: /work/canalplay/
+id: canalplay
+title: Canalplay
+description: The French TV subscription VOD service of CANAL+ Group
+client: Canal+ Groupe
+date: Winter 2015
+link: https://www.youtube.com/watch?v=0TEvgjaCdIE
+summary:
+  - >
+      Canalplay provides access to thousands of programs from your phone, tablet,
+      computer or on your TV.
+  - >
+      This last support and my previous experience with the CANAL+ box - called "Cube S" - gave me
+      the opportunity to develop the entire HTML5 application.
+blocks:
+  - type: image
+    isFull: true
+    content: context.jpg
+  - type: text
+    title: My role
+    content:
+      - >
+          Very large catalog, recommended content and intuitive UX were the 3 pillars of this
+          initial concept to cater public demand.
+      - >
+          I spent most of my time to perfect the infinite and scrollable mosaic contents dealing
+          with the performance of the Cube S processor. I remain full of different techniques to
+          achieve the best possible result. This means thinking outside the box! (sorry)
+  - type: image
+    content: mosaic.gif
+  - type: text
+    content: Backbone and Require were used to optimize as much as possible the number of downloads.
+  - type: video
+    content: <iframe width="560" height="315" src="https://www.youtube.com/embed/0TEvgjaCdIE" frameborder="0" allowfullscreen></iframe>
+  - type: device
+    diaporama: 4000
+    content:
+    - device: tv
+      media: screen-0.jpg
+    - device: tv
+      media: screen-1.jpg
+    - device: tv
+      media: screen-2.jpg
+    - device: tv
+      media: screen-3.jpg
+    aside:
+      title: Canal+ team
+      content:
+        - Lucas Serralta - Director
+        - Charline Robbe - Project Manager
+        - Romain Derrien - Designer

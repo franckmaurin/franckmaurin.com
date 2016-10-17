@@ -1,0 +1,21 @@
+{
+  "extends": "airbnb",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "rules": {
+    "comma-dangle": 0,
+    "semi": [
+      2,
+      "never"
+    ],
+    "no-console": [
+      1
+    ],
+    "react/no-danger": 0,
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "no-use-before-define": [2, "nofunc"]
+  }
+}

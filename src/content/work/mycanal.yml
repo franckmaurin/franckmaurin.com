@@ -1,0 +1,32 @@
+path: /work/mycanal/
+id: mycanal
+title: MyCanal
+description: The digital magazine of CANAL+ & CANALSAT
+client: Canal+ Groupe
+date: Summer '14
+link: http://www.mycanal.fr/guide/lemag/canalplus
+summary:
+  - >
+      A LA UNE is a digital magazine to know everyting about the best of CANAL+
+      and CANALSAT programs. Articles must be accessible in the CANAL subscribers website
+      but also in the tablet/phone myCANAL application."
+blocks:
+  - type: image
+    isFull: true
+    content: context.jpg
+  - type: device
+    content:
+      - device: browser
+        media: screen-0.jpg
+      - device: browser
+        size: twothird
+        media: screen-1.jpg
+      - device: phone
+        size: third
+        media: screen-2.jpg
+    aside:
+      title: Canal+ team
+      content:
+        - Benoit Audouard - Manager
+        - Vincent Jacquesson - Project Manager
+        - Brice Audrain - Designer

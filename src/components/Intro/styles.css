@@ -1,0 +1,51 @@
+.Intro {
+  position: relative;
+  min-height: 100vh;
+  padding: 4rem;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.Intro__title {
+  font: normal 4rem/5.5rem Miller, serif;
+  margin-bottom: 2rem;
+  transition: color .2s ease-in-out;
+}
+
+.Intro__code {
+  font-family: Monaco, monospace;
+}
+
+.Intro__subtitle {
+  font: normal 1.2rem/1.8rem Graphik, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #aaa;
+  transition: color .2s ease-in-out;
+}
+
+.Intro__subtitle:before {
+  content: "";
+  background: #aaa;
+  height: 2px;
+  width: 4rem;
+  display: inline-block;
+  margin: 0 1rem .3rem .5rem;
+  transition: background .2s ease-in-out;
+}
+
+/* --detail */
+.Intro--detail .Intro__title {
+  color: #ddd;
+}
+
+.Intro--detail .Intro__subtitle {
+  color: #333;
+}
+
+.Intro--detail .Intro__subtitle:before {
+  background: #333;
+}

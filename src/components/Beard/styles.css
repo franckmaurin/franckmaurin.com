@@ -1,0 +1,35 @@
+@import '_noUiSlider.css';
+
+.Beard {
+  width: 36rem;
+  height: 30rem;
+  margin: 0 auto 2rem;
+  position: relative;
+}
+
+.Beard__item {
+  position: absolute;
+  opacity: 0;
+  z-index: 1;
+  pointer-events: none; }
+.Beard__item--stay {
+  opacity: 1; }
+.Beard__item--enter {
+  transition: opacity 0.5s ease-in-out;
+  z-index: 2;
+  opacity: 1; }
+.Beard__item--leave {
+  transition: opacity 0.5s ease-in-out;
+  z-index: 2;
+  opacity: 0 }
+
+.Beard__slider {
+  position: absolute;
+  top: 50%;
+  bottom: 50px;
+  right: 50px;
+  z-index: 3;
+}
+.Beard__slider .noUi-target {
+  height: 100%;
+}
